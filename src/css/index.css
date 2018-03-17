@@ -1,1 +1,6 @@
-@import url("layout.css")
+@import url("layout.css");
+@import url("header.css");
+@import url("landing.css");
+@import url("projects.css");
+@import url("recently.css");
+@import url("footer.css");
