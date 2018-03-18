@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="src/css/jquery.fullPage.css" />
     <link rel="stylesheet" href="src/css/index.css" type="text/css">
     <title>Oczane Rivera</title>
   </head>
   <body>
     <header></header>
-    <section id="landing"></section>
-    <section id="projects"></section>
-    <section id="recently"></section>
-    <section id="contact"></section>
+    <div id="fullpage">
+      <div id="landing" class="section"></div>
+      <div id="projects" class="section"></div>
+      <div id="recently" class="section"></div>
+      <div id="contact" class="section"></div>
+    </div>
     <footer></footer>
+
+    <!-- JS files -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+    <script src="src/vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="src/js/jquery.fullPage.js"></script>
+    <script src="src/js/main.js"></script>
   </body>
 </html>
