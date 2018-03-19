@@ -3,7 +3,7 @@ $(document).ready(function() {
 		//Navigation
 		menu: '#menu',
 		lockAnchors: false,
-		anchors: ['homePage', 'projectsPage', 'recentlyPage', 'contactPage'],
+		anchors: ['homePage', 'projectsPage', 'recentlyPage', 'contactPage', 'footerPage'],
 		navigation: true,
 		navigationPosition: 'right',
 		navigationTooltips: ['home', 'projects', 'recently', 'contact'],
@@ -47,10 +47,10 @@ $(document).ready(function() {
 		//Design
 		controlArrows: true,
 		verticalCentered: true,
-		sectionsColor: ['#ed5b5b', '#5b9ced', '#795bed', '#ffffff'],
+		sectionsColor: ['#ed5b5b', '#5b9ced', '#795bed', '#ffffff', 'grey'],
 		//paddingTop: '3em',
 		//paddingBottom: '10px',
-		fixedElements: '#header, #footer',
+		fixedElements: '#header, .footer',
 		responsiveWidth: 0,
 		responsiveHeight: 0,
 		responsiveSlides: false,

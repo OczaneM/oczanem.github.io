@@ -220,6 +220,7 @@ html.fp-enabled,
     height: auto !important;
 }
 
+/* CSS fade in effect
 .fullpage-wrapper {
 	width: 100%!important;
 	transform: none!important;
@@ -239,3 +240,4 @@ html.fp-enabled,
 	visibility: visible;
 	opacity: 1;
 }
+*/
