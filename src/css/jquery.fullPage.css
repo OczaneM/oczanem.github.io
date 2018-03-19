@@ -220,13 +220,13 @@ html.fp-enabled,
     height: auto !important;
 }
 
-/* CSS fade in effect
-.fullpage-wrapper {
+ /* CSS fade in effect */
+/* .fullpage-wrapper {
 	width: 100%!important;
 	transform: none!important;
-}
+} */
 
-.fp-section {
+/* .fp-section {
 	width: 100%!important;
 	position: absolute;
 	left: 0;
@@ -239,5 +239,5 @@ html.fp-enabled,
 .fp-section.active {
 	visibility: visible;
 	opacity: 1;
-}
-*/
+} */
+

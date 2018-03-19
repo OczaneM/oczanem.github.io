@@ -1,3 +1,6 @@
 footer {
   height: 50px;
+  position: absolute;
+  top: 90vh;
+  background-color: grey;
 }
