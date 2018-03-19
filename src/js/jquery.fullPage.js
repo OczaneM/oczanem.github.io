@@ -636,7 +636,7 @@
         function prepareDom(){
             container.css({
                 'height': '100%',
-                'position': 'relative'
+                'position': 'relative',
             });
 
             //adding a class to recognize the container internally in the code
